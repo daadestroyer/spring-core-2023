@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f92bde51-bb53-41d1-b70f-d412ea49dd91" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PropertyInjection/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PropertyInjection/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PropertyInjection/Staff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Autowiring/JavaBased/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Autowiring/XMLBased/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Autowiring/XMLBased/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Autowiring/XMLBased/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ConstructorInjection/Addition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ConstructorInjection/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/constructor-injection-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/xmlbasedautowiringconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,22 +42,25 @@
     </option>
   </component>
   <component name="ProjectId" id="2Yzsjn1qpFPMuRj8zfeyuCbLZjj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/apple/Documents/Java/Practice/Spring/spring-core-2023/src/main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/apple/Documents/Java/Practice/Spring/spring-core-2023/src/main",
+    "settings.editor.selected.configurable": "preferences.customizations"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main" />
@@ -68,7 +70,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example/PI" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.PropertyInjection.App">
+  <component name="RunManager" selected="Application.org.example.Autowiring.XMLBased.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="spring-core-2023" />
@@ -82,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.PI.App01" />
+    <configuration name="org.example.Autowiring.XMLBased.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Autowiring.XMLBased.App" />
       <module name="spring-core-2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.PI.PropertyInjection.*" />
+          <option name="PATTERN" value="org.example.Autowiring.XMLBased.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PI.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PI.App" />
+    <configuration name="org.example.ConstructorInjection.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ConstructorInjection.App" />
       <module name="spring-core-2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PI.*" />
+          <option name="PATTERN" value="org.example.ConstructorInjection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.Autowiring.XMLBased.App" />
+        <item itemvalue="Application.org.example.ConstructorInjection.App" />
         <item itemvalue="Application.org.example.PropertyInjection.App" />
         <item itemvalue="Application.org.example.PI.PropertyInjection.App" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.App01" />
-        <item itemvalue="Application.PI.App" />
       </list>
     </recent_temporary>
   </component>
@@ -154,6 +156,9 @@
       <updated>1701539879434</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,0 +1,7 @@
+package org.example.Autowiring.JavaBased;
+
+public class App {
+    public static void main(String[] args) {
+
+    }
+}
